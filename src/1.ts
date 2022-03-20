@@ -24,3 +24,21 @@ let a1: props = { name: "jin" }; // ojbect는 interface를 통하여 타입 지�
 
 type Width = string | number;
 let width: Width = 100;
+
+enum Fruit {
+  Apple,
+  Banana = 5,
+  Orange,
+}
+// enum의 각 원소는 이름과 값이 양방향으로 매핑이 된다.(원소에 숫자를 할당할 경우 문자면 단방향)
+// enum은 객체로 존재한다.
+
+enum Language {
+  Korean = "ko",
+  Japan = "ja",
+}
+
+// console.log(Fruit);
+// console.log(Fruit[0]);
+
+// console.log(Language);
