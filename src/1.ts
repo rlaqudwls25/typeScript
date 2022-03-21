@@ -73,3 +73,9 @@ const makeArray = <T>(defaultValue: T, size: T | number): T[] => {
 const arr1 = makeArray(1, 10);
 const arr2 = makeArray("1", 10);
 const arr3 = makeArray(true, "10");
+
+const func1 = <T>(a: T, b: T): any => {
+  `${a} ${b}`;
+};
+
+func1(3, 6);
